@@ -1,0 +1,288 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.navbar {
+    z-index: 9999999999;
+}
+
+.navbar .navbar-brand {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 20px;
+    transition: all 0.5s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .navbar-brand:hover {
+    color: #f3ba0f;
+}
+
+.navbar ul li a {
+    color: #f3ba0f !important;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar ul li {
+    margin: auto 20px;
+}
+
+.home {
+    margin: 0;
+    background-size: 100% 100%;
+    background-image: url(../img/ladder-1497436_1280.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.home .info {
+    position: absolute;
+    top: 40%;
+    color: white;
+}
+
+.home .info h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home .info button {
+    background-color: #f3ba0f;
+    border-radius: 50px;
+    padding: 10px 40px;
+    border: none;
+    transition: all 0.4s;
+}
+
+.home .info button:hover {
+    color: white;
+}
+
+.about {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.about h1 {
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about h5 {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.allAbout {
+    margin-bottom: 100px;
+}
+
+ .imo {
+    float: left;
+    margin: auto 20px;
+    margin-bottom: 100px;
+}
+
+.quote {
+    background-size: 100% 100%;
+    background-image: url(../img/woman-1081873_1920.jpg);
+}
+
+ .color {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.quote .contentQuote {
+    padding-top: 10%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #f3ba0f;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+}
+
+.quote p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.profile {
+   
+    height: 300px;
+    background-size: 100% 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile .caption1 {
+    
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(243, 186, 15, 0.8);
+    color: white;
+    transition: all 1s;
+    padding-top: 100px;
+    position: absolute;
+    top: 100%;
+}
+
+.profile:hover .caption1 {
+    top: 0;
+}
+.achieve{
+    width: 100%;
+    margin-top: 50px;
+    background-size: 100% 100%;
+    background-image: url(../img/conference-room-768441_1920.jpg);
+
+}
+.achieve .color .content{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+   
+}
+.achieve .color .content h1{
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.counter{
+    margin-top: 100px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.achieve .color h5{
+    color: #f3ba0f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.divYellow{
+   
+    background-color: #f3ba0f;
+  padding-top: 20px;
+  padding-bottom: 50px;
+    
+}
+.divYellow h3{
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.divYellow button{
+margin-left: 100px;
+  background-color: black;
+  color: #f3ba0f;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+}
+.services{
+    color: white;
+    background-size: cover;
+    background-image: url(../img/young-791849_1920.jpg);
+}
+.serviceContent{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.serviceContent h1{
+    font-family: 'Poppins', sans-serif;
+}
+.services .container{
+    padding-bottom: 50px;
+}
+.SelectWork .nav-tabs .nav-link{
+    color: #f3ba0f !important;
+    margin: auto;
+    transition: all 0.5s;
+}
+.SelectWork .nav-tabs .nav-link:hover{
+    color: black !important;
+}
+
+.SelectWork .tab-content .work{
+    margin-bottom: 30px;
+    margin-top:30px;
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+.SelectWork .tab-content img{
+    width: 100%;
+    height: 100%;
+}
+.SelectWork .SelectCaption {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f3ba0f;
+    transition: all 1s;
+    padding-top: 100px;
+    position: absolute;
+    top: 100%;
+}
+.SelectWork .tab-pane .work:hover .SelectCaption{
+    top: 0;
+}
+.contact{
+    color: white;
+    background-size: 100% 100%;
+    background-image: url(../img/conference-room-768441_1920.jpg);
+}
+.contact .color .about{
+    padding-top: 150px;
+}
+.contact h4{
+    color: #f3ba0f;
+}
+.contact .imoji{
+    margin:auto  80px;
+
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+}
+.footer{
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background-color: black;
+}
+.footer h1{
+    font-weight: bolder;
+}
+.footer .endImo{
+    font-size: 20px;
+}
+
+.footer .copyright{
+    font-size: 20px;
+    
+}
