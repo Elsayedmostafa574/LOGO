@@ -265,7 +265,7 @@ margin-left: 100px;
 }
 .contact .imoji{
     margin:auto  80px;
-
+    padding: 20px;
     background-color: rgba(255,255,255,0.2);
     border-radius: 50%;
 }
